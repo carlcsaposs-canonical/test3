@@ -1,0 +1,11 @@
+on:
+  push:
+  pull_request:
+
+jobs:
+  foo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+         echo "${{ github.base_ref }}"
+         echo "${{ github.ref }}"
