@@ -32,8 +32,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "ops", specifier = ">=2.10" },
-    { name = "psycopg2", marker = "python_full_version < '3.9'", specifier = "==2.9.9" },
+    { name = "ops", specifier = ">=2.23.1" },
+    { name = "psycopg2", marker = "python_full_version < '3.9'", specifier = ">=2.9.9" },
     { name = "psycopg2", marker = "python_full_version >= '3.9'", specifier = ">=2.9.11" },
 ]
 
