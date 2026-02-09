@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     "ops>=2.10",
-    "psycopg2>=2.9.9; python_version < '3.9'",
+    "psycopg2>=2.9.11; python_version < '3.9'",
     "psycopg2>=2.9.11; python_version >= '3.9'",
 ]
 
